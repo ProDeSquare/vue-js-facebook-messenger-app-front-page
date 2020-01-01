@@ -43,6 +43,6 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  max-width: 375px;
+  max-width: 500px;
 }
 </style>

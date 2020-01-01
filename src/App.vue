@@ -79,7 +79,7 @@ export default {
 
 .container {
   margin: 0 auto;
-  max-width: 375px !important;
+  max-width: 500px !important;
 }
 
 .cp {
