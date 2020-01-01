@@ -1,6 +1,8 @@
 <template>
   <div class="home py-4">
-    <Chat :user="user" />
+    <div v-for="friend in friends" :key="friend.id">
+      <Chat :user="friend" />
+    </div>
   </div>
 </template>
 
@@ -9,7 +11,7 @@ import Chat from "@/components/chats/Chat";
 
 export default {
   name: "home",
-  props: ["user"],
+  props: ["friends"],
   components: {
     Chat
   }
